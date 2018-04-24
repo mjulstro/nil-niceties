@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1039 289.6" style="enable-background:new 0 0 1039 289.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{font-family:'Menlo-Regular';}
+	.st1{font-size:12px;}
+	.st2{fill:none;stroke:#78AAF0;stroke-miterlimit:10;}
+	.st3{font-family:'HelveticaNeue-Bold';}
+	.st4{font-size:24px;}
+</style>
+<text transform="matrix(1 0 0 1 264.011 26.0162)" class="st0 st1">??</text>
+<text transform="matrix(1 0 0 1 151.6076 94.3089)" class="st0 st1">.</text>
+<text transform="matrix(1 0 0 1 381.7121 94.3091)" class="st0 st1">.</text>
+<g>
+	<text transform="matrix(1 0 0 1 102.9146 145.5283)" class="st0 st1">?.</text>
+	<g>
+		<text transform="matrix(1 0 0 1 59.3957 182.1133)" class="st0 st1">.</text>
+		<text transform="matrix(1 0 0 1 15.6319 229.2682)" class="st0 st1">user</text>
+		<text transform="matrix(1 0 0 1 74.2609 228.4552)" class="st0 st1">avatar</text>
+	</g>
+	<text transform="matrix(1 0 0 1 135.5968 182.1138)" class="st0 st1">style</text>
+</g>
+<text transform="matrix(1 0 0 1 168.5795 145.5282)" class="st0 st1">backgroundColor</text>
+<text transform="matrix(1 0 0 1 398.6608 145.5284)" class="st0 st1">backgroundColor</text>
+<text transform="matrix(1 0 0 1 314.1908 145.5283)" class="st0 st1">appTheme</text>
+<line class="st2" x1="33.3" y1="214.6" x2="57.7" y2="186.2"/>
+<line class="st2" x1="95.9" y1="213.8" x2="68.3" y2="186.2"/>
+<line class="st2" x1="68.3" y1="173.2" x2="99.2" y2="145.5"/>
+<line class="st2" x1="153.7" y1="169.1" x2="117.1" y2="145.5"/>
+<line class="st2" x1="110.1" y1="132.5" x2="148.7" y2="98.4"/>
+<line class="st2" x1="222.8" y1="133.3" x2="161" y2="98.4"/>
+<line class="st2" x1="343.1" y1="130.9" x2="380" y2="99.2"/>
+<line class="st2" x1="452.8" y1="129.3" x2="393.9" y2="99.2"/>
+<line class="st2" x1="157.8" y1="86.4" x2="261.5" y2="30.1"/>
+<line class="st2" x1="380.7" y1="85.9" x2="281.8" y2="30.1"/>
+<text transform="matrix(1 0 0 1 778.6451 26.0162)" class="st0 st1">||</text>
+<text transform="matrix(1 0 0 1 666.2418 94.3089)" class="st0 st1">.</text>
+<text transform="matrix(1 0 0 1 896.3463 94.3091)" class="st0 st1">.</text>
+<g>
+	<text transform="matrix(1 0 0 1 617.5488 145.5283)" class="st0 st1">&amp;.</text>
+	<g>
+		<text transform="matrix(1 0 0 1 574.0298 182.1133)" class="st0 st1">.</text>
+		<text transform="matrix(1 0 0 1 530.2661 229.2682)" class="st0 st1">user</text>
+		<text transform="matrix(1 0 0 1 588.8951 228.4552)" class="st0 st1">avatar</text>
+	</g>
+	<text transform="matrix(1 0 0 1 650.231 182.1138)" class="st0 st1">style</text>
+</g>
+<text transform="matrix(1 0 0 1 679.6014 145.5282)" class="st0 st1">background_color</text>
+<text transform="matrix(1 0 0 1 909.6827 145.5284)" class="st0 st1">background_color</text>
+<text transform="matrix(1 0 0 1 825.2127 145.5283)" class="st0 st1">app_theme</text>
+<line class="st2" x1="548" y1="214.6" x2="572.4" y2="186.2"/>
+<line class="st2" x1="610.6" y1="213.8" x2="582.9" y2="186.2"/>
+<line class="st2" x1="582.9" y1="173.2" x2="613.8" y2="145.5"/>
+<line class="st2" x1="668.3" y1="169.1" x2="631.7" y2="145.5"/>
+<line class="st2" x1="624.8" y1="132.5" x2="663.3" y2="98.4"/>
+<line class="st2" x1="737.4" y1="133.3" x2="675.6" y2="98.4"/>
+<line class="st2" x1="857.7" y1="130.9" x2="894.7" y2="99.2"/>
+<line class="st2" x1="967.5" y1="129.3" x2="908.5" y2="99.2"/>
+<line class="st2" x1="672.4" y1="86.4" x2="776.1" y2="30.1"/>
+<line class="st2" x1="895.3" y1="85.9" x2="796.4" y2="30.1"/>
+<text transform="matrix(1 0 0 1 242.364 275.5854)" class="st3 st4">Swift</text>
+<text transform="matrix(1 0 0 1 756.5305 275.5854)" class="st3 st4">Ruby</text>
+</svg>
