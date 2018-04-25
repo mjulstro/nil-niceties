@@ -16,10 +16,10 @@ class ProfileScreen {
     var headerBackgroundColorDesugarings: [Color?] {
         return [
             headerBackgroundColor,
-            //headerBackgroundColor_desugaring_1,
-            //headerBackgroundColor_desugaring_2,
-            //headerBackgroundColor_desugaring_3,
-            //headerBackgroundColor_desugaring_4,
+            headerBackgroundColor_desugaring_1,
+            headerBackgroundColor_desugaring_2,
+            headerBackgroundColor_desugaring_3,
+            headerBackgroundColor_desugaring_4,
             //headerBackgroundColor_desugaring_5,
             //headerBackgroundColor_desugaring_verification.realOptional  // convert from FakeOptional; DO NOT MODIFY this line (except for uncommenting)
         ]
@@ -54,7 +54,11 @@ class ProfileScreen {
         before running the tests.)
     */
     var headerBackgroundColor_desugaring_1: Color? {
-        fatalError("delete this line and implement me")
+        if let color = user.avatar?.style.backgroundColor {
+            return color
+        } else {
+            return appTheme.backgroundColor
+        }
     }
 
     /**
@@ -89,7 +93,15 @@ class ProfileScreen {
         Copy the previous method here, and remove all the optional chaining.
     */
     var headerBackgroundColor_desugaring_2: Color? {
-        fatalError("delete this line and implement me")
+        if let avatar = user.avatar {
+            if let color = avatar.style.backgroundColor {
+                return color
+            } else {
+                return appTheme.backgroundColor
+            }
+        } else {
+            return appTheme.backgroundColor
+        }
     }
 
     /**
@@ -118,7 +130,17 @@ class ProfileScreen {
         the file, right?)
     */
     var headerBackgroundColor_desugaring_3: Color? {
-        fatalError("delete this line and implement me")
+        switch user.avatar {
+            case .some(let avatar):
+                switch avatar.style.backgroundColor {
+                    case .some(let color):
+                        return color
+                    case .none:
+                        return appTheme.backgroundColor
+            }
+            case .none:
+                return appTheme.backgroundColor
+        }
     }
 
     /**
@@ -140,7 +162,17 @@ class ProfileScreen {
         Copy the previous method here and remove Swift’s automatic Optional wrapping.
     */
     var headerBackgroundColor_desugaring_4: Color? {
-        fatalError("delete this line and implement me")
+        switch user.avatar {
+        case .some(let avatar):
+            switch avatar.style.backgroundColor {
+            case .some(let color):
+                return color
+            case .none:
+                return appTheme.backgroundColor
+            }
+        case .none:
+            return appTheme.backgroundColor
+        }
     }
 
     /**
