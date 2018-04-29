@@ -21,7 +21,7 @@ class ProfileScreen {
             headerBackgroundColor_desugaring_3,
             headerBackgroundColor_desugaring_4,
             headerBackgroundColor_desugaring_5,
-            //headerBackgroundColor_desugaring_verification.realOptional  // convert from FakeOptional; DO NOT MODIFY this line (except for uncommenting)
+            headerBackgroundColor_desugaring_verification.realOptional  // convert from FakeOptional; DO NOT MODIFY this line (except for uncommenting)
         ]
     }
 
@@ -219,7 +219,7 @@ class ProfileScreen {
         case .some(let avatar):
             switch avatar.style.backgroundColor.fakeOptional {
             case .some(let color):
-                return color
+                return color  // this gives the error that it's not of type FakeOptional<Color>, but it can't be cast to one. How do I make it one?
             case .none:
                 return appTheme.backgroundColor.fakeOptional
             }
