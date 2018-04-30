@@ -152,12 +152,12 @@ class ProfileScreen {
         will magically add .some(...) for you if necessary. In other words, this:
 
             let x: T = ...
-            let y: T? = x
+            let y: Optional<T> = x
 
         ...is sugar for this:
 
             let x: T = ...
-            let y: T? = .some(x)
+            let y: Optional<T> = Optional.some(x)
 
         Copy the previous method here and remove Swift’s automatic Optional wrapping.
     */
@@ -166,7 +166,7 @@ class ProfileScreen {
         case .some(let avatar):
             switch avatar.style.backgroundColor {
             case .some(let color):
-                return color
+                return .some(color)
             case .none:
                 return appTheme.backgroundColor
             }
@@ -187,7 +187,7 @@ class ProfileScreen {
         case .some(let avatar):
             switch avatar.style.backgroundColor {
             case .some(let color):
-                return color
+                return .some(color)
             case .none:
                 return appTheme.backgroundColor
             }
@@ -219,7 +219,7 @@ class ProfileScreen {
         case .some(let avatar):
             switch avatar.style.backgroundColor.fakeOptional {
             case .some(let color):
-                return color  // this gives the error that it's not of type FakeOptional<Color>, but it can't be cast to one. How do I make it one?
+                return FakeOptional.some(color)  // this gives the error that it's not of type FakeOptional<Color>, but it can't be cast to one. How do I make it one?
             case .none:
                 return appTheme.backgroundColor.fakeOptional
             }
